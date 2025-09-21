@@ -6,4 +6,5 @@ class OrderItem {
         this.quantity = quantity;
     }
 }
+
 module.exports = OrderItem;

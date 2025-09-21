@@ -1,4 +1,5 @@
 const productFrequency = new Map();
+const coPurchase = new Map();
 
 function updateTrending(productName, quantity) {
     productFrequency.set(productName, (productFrequency.get(productName) || 0) + quantity);
@@ -6,10 +7,9 @@ function updateTrending(productName, quantity) {
 
 function getTopTrending(n = 5) {
     return [...productFrequency.entries()]
-           .sort((a,b) => b[1] - a[1])
-           .slice(0,n);
+        .sort((a,b) => b[1] - a[1])
+        .slice(0,n);
 }
-const coPurchase = new Map();
 
 function updateCoPurchase(orderProducts) {
     for(let i=0;i<orderProducts.length;i++){
@@ -37,4 +37,3 @@ function getRecommendations(productName) {
 }
 
 module.exports = { updateTrending, getTopTrending, updateCoPurchase, getRecommendations };
-
