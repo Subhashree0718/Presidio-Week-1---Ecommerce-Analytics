@@ -2,6 +2,7 @@ const { updateTrending, getTopTrending, updateCoPurchase, getRecommendations } =
 const Category = require('../models/Category');
 const { calculateCategorySales } = require('./services/categoryService');
 const { placeOrder } = require('./services/orderService');
+const { getTopUsers } = require('./services/userService');
 
 updateTrending('Laptop', 3);
 updateTrending('Mouse', 5);
@@ -27,3 +28,8 @@ const orderItems = [
 placeOrder(1, orderItems, (orderId) => {
     console.log("Order placed:", orderId);
 });
+
+getTopUsers().then(users => {
+    console.log("Top Users:", users);
+});
+
