@@ -7,4 +7,5 @@ class Product {
         this.stock = stock;
     }
 }
+
 module.exports = Product;

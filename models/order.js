@@ -5,4 +5,5 @@ class Order {
         this.createdAt = createdAt;
     }
 }
+
 module.exports = Order;
