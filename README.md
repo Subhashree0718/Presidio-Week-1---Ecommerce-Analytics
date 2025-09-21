@@ -76,7 +76,7 @@ ecommerce-analytics/
 ├─ index.js         # Driver function for testing
 ├─ package.json
 └─ README.md
-
+```
 ## ** Key Deliverables**
 
 ### **GitHub Repository**
