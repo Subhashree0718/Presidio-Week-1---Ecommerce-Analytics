@@ -2,7 +2,7 @@
 
 ## **Project Overview**
 This project is an **E-Commerce Analytics & Recommendation Platform** designed to process **product and user activity data**, provide actionable insights, and demonstrate scalable system design.  
-It integrates **Week 1 core concepts**: **HashMaps**, **Recursion**, **SQL Joins / Indexing / Transactions**, and optional **System Design** improvements for caching and fault tolerance.
+It integrates **Week 1 core concepts**: **HashMaps**, **Recursion**, **SQL Joins / Indexing / Transactions**, and **System Design**, **Github** improvements for caching and fault tolerance.
 
 ---
 
@@ -77,24 +77,24 @@ ecommerce-analytics/
 ├─ package.json
 └─ README.md
 ```
-## ** Key Deliverables**
+##  Key Deliverables
 
-### **GitHub Repository**
+### GitHub Repository
 - Clean commit history
 - PR-reviewed code
 - Well-documented README
 
-### **Working Application**
+### Working Application
 - Trending products
 - Recommended products
 - Recursive category sales analytics
 
-### **Demo**
+### Demo
 - Live product trends and recommendations
 - Recursive category analytics
 ---
 
-## ** Key Learnings**
+## Key Learnings
 
 ✅ **HashMaps** for real-time product tracking and recommendations.  
 ✅ **Recursion** for nested category analytics.  
